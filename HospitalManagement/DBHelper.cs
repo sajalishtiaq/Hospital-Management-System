@@ -111,8 +111,6 @@ namespace HospitalManagement
             return result;
         }
     }
-
-    // Session class to hold logged-in user info
     public static class Session
     {
         public static int UserID { get; set; }
