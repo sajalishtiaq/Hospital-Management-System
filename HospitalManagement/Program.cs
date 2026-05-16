@@ -12,7 +12,6 @@ namespace HospitalManagement
         [STAThread]
         static void Main()
         {
-            // Required for ReportViewer spatial types
             SqlServerTypes.Utilities.LoadNativeAssemblies(AppDomain.CurrentDomain.BaseDirectory);
 
             Application.EnableVisualStyles();
